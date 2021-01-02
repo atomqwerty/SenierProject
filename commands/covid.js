@@ -18,7 +18,7 @@ module.exports = {
 
         if(!args[0]) return message.channel.send(noArgs);
 
-        if(args[0] === "all"){
+        if(args[0] === "world"){
             fetch(`https://covid19.mathdro.id/api`)
             .then(response => response.json())
             .then(data => {
