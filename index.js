@@ -22,7 +22,7 @@ client.on("error", console.error);
 
 client.on('ready', () => {
     console.log('ready');
-    client.user.setActivity(`ข้อมูลCovid-19`)
+    client.user.setActivity(`covid <ชื่อประเทศ>`)
 });
 
 client.on("message", async message => {
