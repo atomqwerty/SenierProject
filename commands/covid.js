@@ -13,7 +13,7 @@ module.exports = {
         const noArgs = new Discord.MessageEmbed()
         .setTitle('Missing arguments')
         .setColor(0xFF0000)
-        .setDescription('กรอกข้อมูลให้ครบ (ex: ;covid all || ;covid Thailand)')
+        .setDescription('กรอกข้อมูลให้ครบ (ex: ;covid world || ;covid Thailand)')
         .setTimestamp()
 
         if(!args[0]) return message.channel.send(noArgs);
